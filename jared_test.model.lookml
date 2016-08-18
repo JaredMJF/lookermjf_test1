@@ -15,3 +15,5 @@
 
 - explore: sales_demographics_tmp
 
+- explore: sales_by_age_group
+
