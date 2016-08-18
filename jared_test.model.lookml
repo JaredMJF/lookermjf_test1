@@ -7,12 +7,5 @@
 
 - explore: product_sales2
 
-- explore: product_sales2_tmp
-
-- explore: product_sales_tmp
-
 - explore: sales_demographics
-
-- explore: sales_demographics_tmp
-
 
