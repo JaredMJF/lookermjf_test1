@@ -9,6 +9,7 @@
   - dimension: avg_sale
     type: number
     sql: ${TABLE}.avg_sale
+    value_format: '$#.00;($#.00)'
 
   - dimension: db
     type: string
@@ -17,6 +18,7 @@
   - dimension: discounts
     type: number
     sql: ${TABLE}.discounts
+    value_format: '$#.00;($#.00)'
 
   - dimension: gender
     type: string
@@ -25,6 +27,7 @@
   - dimension: gross_sales
     type: number
     sql: ${TABLE}.gross_sales
+    value_format: '$#.00;($#.00)'
 
   - dimension: location_name
     type: string
@@ -37,6 +40,7 @@
   - dimension: net_sales
     type: number
     sql: ${TABLE}.net_sales
+    value_format: '$#.00;($#.00)'
 
   - dimension: order_count
     type: number
@@ -52,5 +56,8 @@
 
   - measure: count
     type: count
-    drill_fields: [location_name]
+    drill_fields:
+
+    
+    
 
